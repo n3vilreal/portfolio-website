@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Is Your Name Moanable?</title>
+</head>
+<body>
+    <div class="main bg-black">
+
+        <div class="header bg-fuchsia-950 text-white font-serif h-[10vh] flex items-center justify-center">
+            <span class="text-3xl">Is Your Name Moanable?</span>
+        </div>
+
+        <div class="body-area flex justify-center items-center h-[90vh] bg-[url('/src/background.jpg')] bg-cover flex-col">
+            <div class="result-area flex flex-col space-y-8 items-center">
+                <span class="text-white font-serif text-3xl">Your Monometer says:</span>
+                
+                <audio controls>
+                    <source src="textaudio.mp3" type="audio/mp3">
+                </audio>
+
+                <div class="percentage text-white font-serif text-2xl">
+                    Name is 100% Moanable.
+                </div>
+            </div>
+
+            <div class="check-another">
+                <a href="index.html"><button class="text-white font-serif bg-opacity-75 bg-fuchsia-950 p-1 rounded-md w-[15vw]">Check Another Moanability</button></a>
+            </div>
+        </div>
+        
+        </div>
+
+        
+    </div>
+</body>
+</html>
